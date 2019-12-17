@@ -27,7 +27,9 @@ pip install python-dateutil, easydict, pandas, torchfile, nltk, scikit-image, h5
 - Clone this repo:
 
 ```bash
-git clone https://github.com/qiaott/MirrorGAN.git
+https://github.com/dongdongdong666/CPGAN.git
 cd CPGAN
 ```
+- Download train2014-text.zip from [here](https://drive.google.com/file/d/1CuW5ognTSkNbyx9TWoUFrgwqxZNk1cl0/view?usp=sharing) and unzip it to data/coco/text
+
 
