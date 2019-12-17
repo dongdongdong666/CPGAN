@@ -30,6 +30,4 @@ pip install python-dateutil, easydict, pandas, torchfile, nltk, scikit-image, h5
 https://github.com/dongdongdong666/CPGAN.git
 cd CPGAN
 ```
-- Download train2014-text.zip from [here](https://drive.google.com/file/d/1CuW5ognTSkNbyx9TWoUFrgwqxZNk1cl0/view?usp=sharing) and unzip it to data/coco/text
-
-
+- Download train2014-text.zip from [here](https://drive.google.com/file/d/1UBgUHYWSmDD1Gnja2K7ZCVuQTLR89PAf/view?usp=sharing) and unzip it to data/coco/text
