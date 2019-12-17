@@ -38,11 +38,11 @@ https://github.com/dongdongdong666/CPGAN.git
 ### Train/Test
 
 **Sampling**
-- Set `B_VALIDATION： False` in "/code/cfg/eval_coco.yml".
+- Set `B_VALIDATION：False` in "/code/cfg/eval_coco.yml".
 - Run `python eval.py --cfg cfg/eval_coco.yml --gpu 0` to generate examples from captions listed in "data/coco/example_captions.txt".  Results are saved to "outputs/Inference_Images/example_captions". 
 
 **Validation**
-- Set `B_VALIDATION： True` in "/code/cfg/eval_coco.yml".
+- Set `B_VALIDATION：True` in "/code/cfg/eval_coco.yml".
 - Run `python eval.py --cfg cfg/eval_coco.yml --gpu 0` to generate examples for all captions in the validation dataset. Results are saved to "outputs/Inference_Images/single". 
 - Compute inception score for the model trained on coco.  
 ```bash
