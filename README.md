@@ -4,12 +4,23 @@ Pytorch implementation for reproducing CPGAN results in the paper CPGAN: Full-Sp
 
 <img src="model_structure.jpg" width="900px" height="280px"/>
 
-## Dependencies
+## Getting Started
+### Installation
 
-python 2.7
+- Create  anaconda virtual environment
 
-Pytorch
+```bash
+conda create -n CPGAN python=2.7
+```
 
-In additional, the dependencies required by CPGAN is described in detail in the environment.yaml.
+- Install PyTorch and dependencies from http://pytorch.org
 
+```bash
+conda install pytorch torchvision cudatoolkit=10.1
+```
+- PIP Install
+
+```bash
+pip install python-dateutil, easydict, pandas, torchfile, nltk, scikit-image, h5py, pyyaml
+```
 
