@@ -6,6 +6,10 @@ Pytorch implementation for reproducing CPGAN results in the paper CPGAN: Full-Sp
 
 ## Dependencies
 
+python 2.7
+
+Pytorch
+
 In additional, the dependencies required by CPGAN is described in detail in the environment.yaml.
 
 
