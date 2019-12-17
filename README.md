@@ -21,7 +21,7 @@ conda install pytorch torchvision cudatoolkit=10.1
 - PIP Install
 
 ```bash
-pip install python-dateutil, easydict, pandas, torchfile, nltk, scikit-image, h5py, pyyaml
+pip install python-dateutil easydict pandas torchfile nltk scikit-image h5py pyyaml
 ```
 
 - Clone this repo:
