@@ -28,7 +28,6 @@ pip install python-dateutil easydict pandas torchfile nltk scikit-image h5py pyy
 
 ```bash
 https://github.com/dongdongdong666/CPGAN.git
-cd CPGAN
 ```
 - Download train2014-text.zip from [here](https://drive.google.com/file/d/1UBgUHYWSmDD1Gnja2K7ZCVuQTLR89PAf/view?usp=sharing) and unzip it to data/coco/text/
 
@@ -40,13 +39,20 @@ cd CPGAN
 
 **Sampling**
 - Set `B_VALIDATION： False` in "/code/cfg/eval_coco.yml".
-- Run `python eval.py --cfg cfg/eval_coco.yml --gpu 0` to generate examples from captions in files listed in "data/coco/example_captions.txt". Results are saved to `outputs/Inference_Images/example_captions`. 
-- Input your own sentence in "data/coco/example_captions.txt" if you wannt to generate images from customized sentences. 
+- Run `python eval.py --cfg cfg/eval_coco.yml --gpu 0` to generate examples from captions listed in "data/coco/example_captions.txt". Results are saved to "outputs/Inference_Images/example_captions". 
 
 **Validation**
-- To generate images for all captions in the validation dataset, change B_VALIDATION to True in the eval_*.yml. and then run `python main.py --cfg cfg/eval_bird.yml --gpu 1`
-- We compute inception score for models trained on birds using [StackGAN-inception-model](https://github.com/hanzhanggit/StackGAN-inception-model).
-- We compute inception score for models trained on coco using [improved-gan/inception_score](https://github.com/openai/improved-gan/tree/master/inception_score).
+- Set `B_VALIDATION： True` in "/code/cfg/eval_coco.yml".
+- Run `python eval.py --cfg cfg/eval_coco.yml --gpu 0` to generate examples for all captions in the validation dataset.Results are saved to "outputs/Inference_Images/single". 
+- Compute inception score for the model trained on coco  
+```bash
+python caculate_IS.py --dir ../outputs/Inference_Images/single/
+```
+- Compute R precison for the model trained on coco  
+```bash
+python caculate_R_precison.py --cfg cfg/coco.yml --gpu 0 --valid_dir /home/ljd/CPGAN/outputs/Inference_Images/single/
+```
+
 
 
 
