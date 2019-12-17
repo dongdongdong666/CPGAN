@@ -73,14 +73,14 @@ Note that after cleaning and refactoring the code of the paper, the results are 
 
 |Model |R-precision↑  |IS↑  |
 |----|-----| -----|
-| Reed | (-)| 7.88 ± 0.07|
-| StackGAN | (-)| 8.45 ± 0.03|
-| Infer| (-) | 11.46 ± 0.09|
-| SD-GAN | (-)| 35.69 ± 0.50 | 
-| MirrorGAN | (-)| 26.47 ± 0.41 |
-| SEGAN| (-)| 27.86 ± 0.31|
-| DMGAN| 88.56%| 30.49 ± 0.57|
-| AttnGAN| 82.98%| 25.89 ± 0.47|
-| objGAN| 91.05%| 30.29 ± 0.33|
+| [Reed](https://arxiv.org/abs/1605.05396) | (-)| 7.88 ± 0.07|
+| [StackGAN](https://arxiv.org/abs/1612.03242) | (-)| 8.45 ± 0.03|
+| [Infer](https://arxiv.org/abs/1801.05091) | (-) | 11.46 ± 0.09|
+| [SD-GAN](https://arxiv.org/abs/1904.01480) | (-)| 35.69 ± 0.50 | 
+| [MirrorGAN](https://arxiv.org/abs/1903.05854) | (-)| 26.47 ± 0.41 |
+| [SEGAN](http://openaccess.thecvf.com/content_ICCV_2019/papers/Tan_Semantics-Enhanced_Adversarial_Nets_for_Text-to-Image_Synthesis_ICCV_2019_paper.pdf) | (-)| 27.86 ± 0.31|
+| [DMGAN](https://arxiv.org/abs/1904.01310) | 88.56%| 30.49 ± 0.57|
+| [AttnGAN](https://arxiv.org/abs/1711.10485) | 82.98%| 25.89 ± 0.47|
+| [objGAN](https://arxiv.org/abs/1902.10740) | 91.05%| 30.29 ± 0.33|
 | CPGAN| 93.59%| 52.73 ± 0.61|
 
