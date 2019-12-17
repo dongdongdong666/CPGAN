@@ -1,0 +1,30 @@
+CONFIG_NAME: 'CPGAN'
+
+DATASET_NAME: 'coco'
+DATA_DIR: '../data/coco'
+GPU_ID: 3
+WORKERS: 1
+
+B_VALIDATION: True
+TREE:
+    BRANCH_NUM: 3
+
+
+TRAIN:
+    FLAG: False
+    NET_G: '../models/NET_G.pkl'
+    BATCH_SIZE: 14
+    NET_E: '../models/Text_Encoder.pkl'
+    NET_T: '../models/NET_T.pkl'
+
+
+GAN:
+    DF_DIM: 96
+    GF_DIM: 48
+    Z_DIM: 100
+    R_NUM: 3
+
+TEXT:
+    EMBEDDING_DIM: 256
+    CAPTIONS_PER_IMAGE: 5
+    WORDS_NUM: 20
