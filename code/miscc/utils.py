@@ -1,13 +1,11 @@
 import os
 import errno
 import numpy as np
-from torch.nn import init
 
 import torch
 import torch.nn as nn
 
 from PIL import Image, ImageDraw, ImageFont
-import cv2
 from copy import deepcopy
 import skimage.transform
 

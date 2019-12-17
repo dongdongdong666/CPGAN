@@ -39,7 +39,8 @@ def parse_args():
     parser.add_argument('--gpu', dest='gpu_id', type=int, default=-1)
     parser.add_argument('--data_dir', dest='data_dir', type=str, default='')
     parser.add_argument('--manualSeed', type=int, help='manual seed')
-    args = parser.parse_args('--cfg cfg/eval_coco.yml --gpu 0'.split())
+    # args = parser.parse_args('--cfg cfg/eval_coco.yml --gpu 0'.split())
+    args = parser.parse_args()
 
     return args
 
