@@ -5,7 +5,7 @@ Pytorch implementation for reproducing CPGAN results in the paper CPGAN: Full-Sp
 <img src="model_structure.jpg" width="900px" height="280px"/>
 
 ## Dependencies
-python 2.7
 
-Pytorch
+In additional, the dependencies required by CPGAN is described in detail in the environment.yaml.
+
 
