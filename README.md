@@ -24,3 +24,10 @@ conda install pytorch torchvision cudatoolkit=10.1
 pip install python-dateutil, easydict, pandas, torchfile, nltk, scikit-image, h5py, pyyaml
 ```
 
+- Clone this repo:
+
+```bash
+git clone https://github.com/qiaott/MirrorGAN.git
+cd CPGAN
+```
+
