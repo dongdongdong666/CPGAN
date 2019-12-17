@@ -84,3 +84,13 @@ Note that after cleaning and refactoring the code of the paper, the results are 
 | [objGAN](https://arxiv.org/abs/1902.10740) | 91.05%| 30.29 ± 0.33|
 | CPGAN| 93.59%| 52.73 ± 0.61|
 
+### Citing CPGAN
+If you find CPGAN useful in your research, please consider citing:
+
+```
+@article{Liang19CPGAN,
+  author    = {Jiadong Liang, Wenjie Pei, Feng Lu},
+  title     = {CPGAN: Full-Spectrum Content-Parsing Generative Adversarial Networks for Text-to-Image Synthesis},
+  Year = {2019},
+}
+```
