@@ -43,10 +43,7 @@ def parse_args():
     parser.add_argument('--valid_dir', dest='Vdir', type=str, default='')
     parser.add_argument('--data_dir', dest='data_dir', type=str, default='')
     parser.add_argument('--manualSeed', type=int, help='manual seed')
-    # args = parser.parse_args()
-    args = parser.parse_args('--cfg cfg/coco.yml '
-                             '--gpu 0 '
-                             '--valid_dir /home/ljd/CPGAN/outputs/Inference_Images/single/'.split())
+    args = parser.parse_args()
     return args
 
 def build_models():
