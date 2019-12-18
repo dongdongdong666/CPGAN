@@ -9,6 +9,7 @@ Pytorch implementation for reproducing CPGAN results in the paper CPGAN: Full-Sp
 
 ```bash
 conda create -n CPGAN python=2.7
+conda activate CPGAN
 ```
 
 - Install PyTorch and dependencies from http://pytorch.org
