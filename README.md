@@ -89,9 +89,12 @@ Note that after cleaning and refactoring the code of the paper, the results are 
 If you find CPGAN useful in your research, please consider citing:
 
 ```
-@article{Liang19CPGAN,
-  author    = {Jiadong Liang, Wenjie Pei, Feng Lu},
-  title     = {CPGAN: Full-Spectrum Content-Parsing Generative Adversarial Networks for Text-to-Image Synthesis},
-  Year = {2019},
+@misc{liang2019cpgan,
+    title={CPGAN: Full-Spectrum Content-Parsing Generative Adversarial Networks for Text-to-Image Synthesis},
+    author={Jiadong Liang and Wenjie Pei and Feng Lu},
+    year={2019},
+    eprint={1912.08562},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
 }
 ```
