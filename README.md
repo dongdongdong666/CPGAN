@@ -83,7 +83,7 @@ Note that after cleaning and refactoring the code of the paper, the results are 
 | [DMGAN](https://arxiv.org/abs/1904.01310) | 88.56%| 30.49 ± 0.57|
 | [AttnGAN](https://arxiv.org/abs/1711.10485) | 82.98%| 25.89 ± 0.47|
 | [objGAN](https://arxiv.org/abs/1902.10740) | 91.05%| 30.29 ± 0.33|
-| CPGAN| 93.59%| 52.73 ± 0.61|
+| [CPGAN](https://arxiv.org/abs/1912.08562) | 93.59%| 52.73 ± 0.61|
 
 ## Citing CPGAN
 If you find CPGAN useful in your research, please consider citing:
