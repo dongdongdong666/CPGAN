@@ -1,5 +1,5 @@
 # CPGAN
-Pytorch implementation for reproducing CPGAN results in the paper CPGAN: Full-Spectrum Content-Parsing Generative Adversarial Networks for Text-to-image Synthesis by Jiadong Liang, Wenjie Pei, Feng Lu.
+Pytorch implementation for reproducing CPGAN results in the paper [CPGAN: Full-Spectrum Content-Parsing Generative Adversarial Networks for Text-to-image Synthesis](https://arxiv.org/abs/1912.08562) by Jiadong Liang, Wenjie Pei, Feng Lu.
 
 <img src="model_structure.jpg" width="900px" height="280px"/>
 
